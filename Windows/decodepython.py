@@ -1,10 +1,4 @@
 #!/usr/bin/python
-# kcs_decode.py
-#
-# Author : David Beazley (http://www.dabeaz.com)
-# Copyright (C) 2010
-#
-# Requires Python 3.1.2 or newer
 
 """
 Converts a WAV file containing Kansas City Standard data and
