@@ -1,0 +1,15 @@
+script_encoder
+by s1lv3r aka Loophac
+
+How to use:
+
+Place the file you wish to encode into the script_encoder folder.
+Run the encoder.
+  Ex. "python3 scriptencoder.py <infile name> <outfile name>"
+    Note: the outfile name is what you want the .wav to be named
+
+Place the .wav output file wherever you would like and place its corresponding decoder.
+  Ex. If you encoded a python file, you would place the decodepython.py decoder with the .wav output file.
+  
+Run the decoder.
+  Ex. "python3 decodepython.py <outfile name>.wav"
