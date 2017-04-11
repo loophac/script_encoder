@@ -12,8 +12,10 @@ def logo():
      print ("     Original code by David Beazley (http://www.dabeaz.com)")
      print ("     Rebuilt by S1lv3r(Loophac)  2017")
      print ("")
-     print ("                     ")
      input('Press enter to continue: ')
+     print ("                     ")
+     print ("                     ")
+     print ("              \n       ")
      return main()
         
 
@@ -96,8 +98,8 @@ def main():
     
     if __name__ == '__main__':
         import sys
-        in_filename = input('Enter an in_filename: ')
-        out_filename = input('Enter an out_filename: ')
+        in_filename = input('Enter an in_filename: ')  #Ask for a file name
+        out_filename = input('Enter an out_filename: ') # ^^^^
         data = open(in_filename,"U").read()
         data = data.replace('\n','\r\n')         # Fix line endings
         rawdata = bytearray(data.encode('latin-1'))
