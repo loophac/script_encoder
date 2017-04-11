@@ -13,4 +13,4 @@ A program used to convert scripts into audio files that use a method similar to 
        
        () Support .apk file encoding/decoding (aka support Android)
        
-       () Create easier interface 
+       (X) Create easier interface 
