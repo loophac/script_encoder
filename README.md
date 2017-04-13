@@ -15,6 +15,6 @@ A program used to convert scripts into audio files that use a method similar to 
        
        (X) Create easier interface for encoding
        
-       () Create easier interface for decoding
+       (X) Create easier interface for decoding
        
        () Slay the Dragon
