@@ -6,10 +6,10 @@ How to use:
 Place the file you wish to encode into the script_encoder folder.
 Run the encoder.
   Ex. "python3 scriptencoder.py"
-    Note: thr program asks you for in_file and out_file names
+    Note: the program asks you for in_file and out_file names
 
 Place the .wav output file wherever you would like and place its corresponding decoder.
-  Ex. If you encoded a python file, you would place the decodepython.py decoder with the .wav output file.
+  
   
 Run the decoder.
-  Ex. "python3 decodepython.py <outfile name>.wav"
+  Ex. "python3 decodepython.py 
