@@ -1,3 +1,7 @@
+#Algorithm used to encode/decode KCS Audio is Copyrighted by David Beazley (http://www.dabeaz.com)
+#Remaining code developed by Christian Doucette
+
+
 def bash():
     #!/usr/bin/python
     
@@ -506,8 +510,8 @@ def logo():
      print ("")
      print ("     ======================================================================")
      print ("     Requires Python3")
-     print ("     Original code by David Beazley (http://www.dabeaz.com)")
-     print ("     Rebuilt by S1lv3r(Loophac)  2017")
+     print ("     Original Encode/Decode alogorithm Copyrighted by David Beazley (http://www.dabeaz.com)")
+     print ("     Rebuilt by S1lv3r(Loophac) for user interface and easily demployment of scripts/text files 2017")
      print ("     h for help\n")
      question = input("Which type of output file do you want?: ")
      if question == "h":
