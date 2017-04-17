@@ -13,8 +13,8 @@ A program used to convert scripts into audio files that use a method similar to 
        
        () Support .apk file encoding/decoding (aka support Android)
        
-       (X) Create easier interface for encoding
+       (X) Create easier interface for encoding (available as of v0.1.0)
        
-       (X) Create easier interface for decoding
+       (X) Create easier interface for decoding (available as of v0.1.0)
        
        () Slay the Dragon
