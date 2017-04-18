@@ -3,7 +3,7 @@ A program used to convert scripts into audio files that use a method similar to 
 
 
 # To Do: 
-       () Create auto-run decoders to run the script immidiately after decoding the wav file.
+       (X) Create auto-run decoders to run the script immidiately after decoding the wav file.
        
        () Support .elf file encoding/decoding
        
