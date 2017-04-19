@@ -2,6 +2,9 @@
 A program used to convert scripts into audio files that use a method similar to KCS to store data. When you decode the audio file, it decodes the audio into the desired file format you specify. Algorithm to encode and decode belongs to David Beazley (http://www.dabeaz.com)
 
 
+Auto-run features for python and C++ are Linux ONLY
+
+
 # To Do: 
        (X) Create auto-run decoders to run the script immidiately after decoding the wav file.
        
