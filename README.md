@@ -20,4 +20,4 @@ Auto-run features for python and C++ are Linux ONLY
        
        (X) Create easier interface for decoding
        
-       () Slay the Dragon
+       (X) Slay the Dragon
