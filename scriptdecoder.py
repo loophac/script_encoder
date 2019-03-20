@@ -1,5 +1,5 @@
 #Algorithm used to encode/decode KCS Audio is Copyrighted by David Beazley (http://www.dabeaz.com)
-#Remaining code developed by Christian Doucette
+#Remaining code developed by Loophac
 import os
 
 
