@@ -1,5 +1,5 @@
-# script_encoder
-A program used to convert scripts into audio files that use a method similar to KCS to store data. When you decode the audio file, it decodes the audio into the desired file format you specify. Algorithm to encode and decode belongs to David Beazley (http://www.dabeaz.com)
+# vor
+
 
 
 Auto-run features for python and C++ are Linux ONLY
