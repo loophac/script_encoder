@@ -1141,7 +1141,7 @@ def logo():
      print ("")
      print ("     ======================================================================")
      print ("     Requires Python3")
-     print ("     Original Encode/Decode alogorithm Copyrighted by David Beazley (http://www.dabeaz.com)")
+
      print ("     Rebuilt by S1lv3r(Loophac) for user interface and easy deployment of script/text files 2017")
      print ("                          \nh for help\n")
      question = input("Which type of output file do you want?: ")
