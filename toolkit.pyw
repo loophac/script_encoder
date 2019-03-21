@@ -1,23 +1,11 @@
-import os
-import time
-
-def maker():
-	dtimer = input("How long should the timer be set for?  ")
-
-	text_file = open("output.pyw", "w")
-
-
-	text_file.write("""def formParam():
+def formParam():
 		
 		
 		from collections import deque
 		from itertools import islice
 		from contextlib import redirect_stdout
-		
-		
-		
-		
-		
+		import os
+
 		# Generate a sequence representing sign bits
 		def generate_wav_sign_change_bits(wavefile):
 			samplewidth = wavefile.getsampwidth()
@@ -30,7 +18,6 @@ def maker():
 		
 				# Extract most significant bytes from left-most audio channel
 				msbytes = bytearray(frames[samplewidth-1::samplewidth*nchannels])
-		
 				# Emit a stream of sign-change bits
 				for byte in msbytes:
 					signbit = byte & 0x80
@@ -39,7 +26,7 @@ def maker():
 		
 		# Base frequency (representing a 1)
 		BASE_FREQ = 80
-		
+
 		# Generate a sequence of data bytes by sampling the stream of sign change bits
 		def generate_bytes(bitstream,framerate):
 			bitmasks = [0x1,0x2,0x4,0x8,0x10,0x20,0x40,0x80]
@@ -78,12 +65,13 @@ def maker():
 			import sys
 			import optparse
 			import sys
+			import time
             
-            data = data.wav 
+			
 			
 		   
 
-			p1 = data
+			p1 = 'data.wav'
 			
 			wf = wave.open(p1)
 			sign_changes = generate_wav_sign_change_bits(wf)
@@ -95,12 +83,12 @@ def maker():
 			p.set_defaults(binary=False)
 		
 			opts, args = p.parse_args()
-			time.sleep(%s)
+			time.sleep(5)
 			if len(args) != 1:
 				
 				
 			
-				f = open("decoded.py", 'w')
+				f = open("decoded.pyw", 'w')
 				sys.stdout = f
 
 			if opts.binary:
@@ -117,8 +105,10 @@ def maker():
 				buffer = bytearray()
 				while True:
 					linebreak = buffer.find(b'\n')
+
 					if linebreak >= 0:
 						line = buffer[:linebreak+1].replace(b'\r\n',b'\n')
+
 						sys.stdout.write(line.decode('latin-1'))
 						del buffer[:linebreak+1]
 					else:
@@ -130,47 +120,7 @@ def maker():
 		
 		f.close()
 		os.system("python3 decoded.pyw")
-		os.system("py decoded.pyw") # If Windows does not recognize python3, try py. """ % dtimer)
-
-	text_file.close()
+		os.system("py decoded.pyw") # If Windows does not recognize python3, try py. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def logo():
-     print ("\n")
-     print ("           _____  ____  ____  _       _  __ _  _____        ")
-     print ("          /__ __\/  _ \/  _ \/ \     / |/ // \/__ __\     ")
-     print ("            / \  | / \|| / \|| |     |   / | |  / \       ")
-     print ("            | |  | \_/|| \_/|| |_/\  |   \ | |  | |       ")
-     print ("            \_/  \____/\____/\____/  \_|\_\\_/  \_/        ")   
-     print ("                                                          ") 
-     print ("")
-     print ("     ======================================================================")
-     print ("     Requires Python3")
-     print ("     Original Encode/Decode alogorithm Copyrighted by David Beazley (http://www.dabeaz.com)")
-     print ("     Rebuilt by S1lv3r(Loophac) for user interface and easy deployment of script/text files 2017")
-     print ("                          \n        h for help\n")
-     print("")
-     #question = input("Which type of output file do you want?: ")
-     #if question == "h":
-       # print("txt, python, batch, bash, cpp, autopython,autobash, autocpp or autobatch.")
-       # return logo
-     maker()
-logo()
+formParam()
