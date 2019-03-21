@@ -13,3 +13,7 @@ Place the .wav output file wherever you would like and place its corresponding d
   
 Run the decoder.
   Ex. "python3 decodepython.py 
+
+Run the Toolkit.
+  Edit the toolkit to change the name of the in_file, timer, and out_file name.
+  Run.
