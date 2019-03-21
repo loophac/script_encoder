@@ -71,7 +71,7 @@ def formParam():
 			
 		   
 
-			p1 = 'data.wav'
+			p1 = 'data.wav'                #in_file name goes here
 			
 			wf = wave.open(p1)
 			sign_changes = generate_wav_sign_change_bits(wf)
@@ -83,12 +83,12 @@ def formParam():
 			p.set_defaults(binary=False)
 		
 			opts, args = p.parse_args()
-			time.sleep(5)
+			time.sleep(5)                           #timer here
 			if len(args) != 1:
 				
 				
 			
-				f = open("decoded.pyw", 'w')
+				f = open("decoded.pyw", 'w')     #output name here. DO NOT CHANGE THIS WITHOUT CHANGING RUN COMMAND
 				sys.stdout = f
 
 			if opts.binary:
@@ -119,7 +119,7 @@ def formParam():
 						buffer.extend(fragment)
 		
 		f.close()
-		os.system("python3 decoded.pyw")
+		os.system("python3 decoded.pyw")                 #run command. change file name only if output name was changed.
 		os.system("py decoded.pyw") # If Windows does not recognize python3, try py. 
 
 
